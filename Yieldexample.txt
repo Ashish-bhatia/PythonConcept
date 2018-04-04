@@ -1,0 +1,12 @@
+What yield helps you to do. 
+
+Yield is as good as return. But it leaves the function in suspended state. 
+Yield helps you pick one item and do the processing and than pick up next. 
+
+So with respect to code yieldexample.py you can see when we use for loop and return. we required to process full loop. 
+While with yield we do not. Also if we use break, we begins from intial everytime. While yield saves the last state of the loop, 
+and continue from there. 
+
+and yield generates a genretor. which have .next() method associated with it. While Return gives you complete list, and it does not support 
+.next() method. 
+
